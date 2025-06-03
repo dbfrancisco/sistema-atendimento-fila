@@ -29,14 +29,14 @@ public class Fila {
     }
 
     public String exibirFila() {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder conteudoFila = new StringBuilder();
         No atual = inicio;
         int pos = 1;
         while (atual != null) {
-            sb.append(pos).append(" - ").append(atual.dado).append("\n");
+            conteudoFila.append(pos).append(" - ").append(atual.dado).append("\n");
             atual = atual.proximo;
             pos++;
         }
-        return sb.length() > 0 ? sb.toString() : "Fila vazia.";
+        return conteudoFila.length() > 0 ? conteudoFila.toString() : "Fila vazia.";
     }
 }
