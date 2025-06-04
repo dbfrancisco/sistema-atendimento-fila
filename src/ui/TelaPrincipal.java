@@ -75,7 +75,7 @@ public class TelaPrincipal extends JFrame {
             String chamado = fila.desenfileirar();
             if (chamado != null) {
                 Color original = areaFila.getBackground();
-                areaFila.setBackground(new Color(255, 250, 205)); // Amarelo claro
+                areaFila.setBackground(new Color(255, 250, 205));
                 Timer timer = new Timer(500, ev -> areaFila.setBackground(original));
                 timer.setRepeats(false);
                 timer.start();
