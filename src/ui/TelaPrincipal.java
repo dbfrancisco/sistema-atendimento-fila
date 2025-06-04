@@ -1,10 +1,11 @@
 package ui;
+
 import estrutura.Fila;
 
 import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.*;
-import java.awt.event.*;
+
 
 public class TelaPrincipal extends JFrame {
     private final Fila fila = new Fila();
