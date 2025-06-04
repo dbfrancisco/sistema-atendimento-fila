@@ -12,8 +12,8 @@ public class TelaPrincipal extends JFrame {
     private final JTextField campoNome = new JTextField(20);
     private final JTextArea areaFila = new JTextArea(10, 30);
     private final Color corFundo = new Color(245, 245, 250);
-    private final Color corBotao = new Color(100, 149, 237); // Azul suave
-    private final Color corBotaoChamar = new Color(60, 179, 113); // Verde suave
+    private final Color corBotao = new Color(100, 149, 237);
+    private final Color corBotaoChamar = new Color(60, 179, 113);
     private final Color corTexto = new Color(33, 33, 33);
 
     public TelaPrincipal() {
