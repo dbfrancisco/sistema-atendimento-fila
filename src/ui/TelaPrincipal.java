@@ -74,7 +74,6 @@ public class TelaPrincipal extends JFrame {
         btnChamar.addActionListener(e -> {
             String chamado = fila.desenfileirar();
             if (chamado != null) {
-                // "Animação" simples: destaca a área por 500ms
                 Color original = areaFila.getBackground();
                 areaFila.setBackground(new Color(255, 250, 205)); // Amarelo claro
                 Timer timer = new Timer(500, ev -> areaFila.setBackground(original));
